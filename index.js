@@ -3,9 +3,10 @@
 //   audio.play();
 // });
 
-let img = document.getElementsByTagName("img");
-for (let i = 0; i < img.length; i++) {
-  img[i].addEventListener("click", () => {
-    alert("Image clicked Image No : " + (i + 1));
-  });
-}
+// let img = document.querySelectorAll("img");
+
+// img.forEach((x) => {
+//   x.addEventListener("click", () => {
+//     alert("Hello World");
+//   });
+// });
